@@ -23,6 +23,7 @@ Redmine::Plugin.register :redmine_copy_macro do
       out << link_to_function(
             '📋',
             js,
+            :title => 'Copy',
             :class => 'copy-text-button',
             :style => 'padding-left: 5px; text-decoration: none;')
       out
